@@ -1,0 +1,75 @@
+/* 
+  KULLANICI RENK PALETİ DOSYASI 
+  Bütün projenin (Gece & Gündüz) renklerini buradan değiştirebilirsin.
+*/
+
+:root {
+  /* ======================
+     GÜNDÜZ MODU (LIGHT)
+     ====================== */
+
+  /* Arka Planlar */
+  --bg-primary: #f8fafc;
+  /* Beyaza yakın kırık arka plan (Uygulamanın ana rengi) */
+  --bg-secondary: #ffffff;
+  /* Kartlar ve kutular için tam beyaz */
+
+  /* Seçili / Vurgulu Renkler (Örn: Zümrüt Yeşili) */
+  --accent-main: #10b981;
+  /* Emerald 500 - Ana Butonlar */
+  --accent-hover: #059669;
+  /* Emerald 600 - Buton Üzerine Gelince */
+
+  /* İkincil Vurgu (Örn: Altın Sarısı/Premium Hissiyat İçin) */
+  --accent-gold: #fbbf24;
+  /* Amber 400 */
+
+  /* Metin Renkleri */
+  --text-primary: #0f172a;
+  /* Çok koyu gri/siyah (Ana başlıklar) */
+  --text-secondary: #475569;
+  /* Slate 600 (Açıklamalar, Alt metinler) */
+
+  /* Kenarlıklar ve Çizgiler */
+  --border-color: #e2e8f0;
+  /* Slate 200 */
+}
+
+/* 
+  Gece modu (Dark Mode) aktifleştirildiğinde bu değişkenler ezilir.
+  (Sistem otomatik "dark" class'ını ekler) 
+*/
+.dark {
+  /* ======================
+     GECE MODU (DARK)
+     ====================== */
+
+  /* Gece Mavisi / Antrasit Tonları (Çok daha premium durur) */
+  /* --bg-primary: #0b1120;  /* Koyu Mavi/Siyah */
+  /* --bg-secondary: #111827; */
+
+  /* Alternatif Koyu Tema: (Aşağıdakiler Aktif) */
+  --bg-primary: #080c13;
+  /* Premium Koyu Lacivert/Gece Mavisi Arka Plan */
+  --bg-secondary: #101622;
+  /* Kartlar ve Kutular (Soft Gece Mavisi) */
+
+  /* Seçili / Vurgulu Renkler */
+  --accent-main: #10b981;
+  /* Emerald 500 (Gece modunda da aynı parlasın) */
+  --accent-hover: #34d399;
+  /* Emerald 400 */
+
+  /* İkincil Vurgu */
+  --accent-gold: #fbbf24;
+
+  /* Metin Renkleri */
+  --text-primary: #f8fafc;
+  /* Slate 50 - Ana Metinler (Parıldayan Beyaz) */
+  --text-secondary: #94a3b8;
+  /* Slate 400 - Alt metinler */
+
+  /* Kenarlıklar ve Çizgiler */
+  --border-color: #1e293b;
+  /* Slate 800 */
+}
